@@ -4,7 +4,11 @@ import Herosection from "@/components/Herosection";
 import SecctionOne from "@/components/SecctionOne";
 import CoursesCatalog from "@/components/coursescatalog";
 import Achievements from "@/components/Achievements";
-import Enrollcourses from "@/components/Enrollcourses"
+import Coursescards from "@/components/Coursescards";
+import TeamMembers from "@/components/TeamMembers";
+import CustomerTestimonials from "@/components/CustomerTestimonials";
+import Footer from "@/components/Footer";
+
 export default function Home() {
   return (
      <div className="overflow-x-hidden">
@@ -12,8 +16,12 @@ export default function Home() {
       <Herosection />
       <SecctionOne />
       <CoursesCatalog />
-      < Achievements />
-      <Enrollcourses />
+      <Achievements />
+      <Coursescards />
+      <TeamMembers />
+      <CustomerTestimonials />
+      <Footer />
+
     </div>
   );
 }

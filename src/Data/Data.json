@@ -1,0 +1,195 @@
+{
+    "cousesCards":[
+        {
+            "id":1,
+            "Image":"/Images/ui-ux-course.png",
+            "Heading":"UX/UI Design 201",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
+            "button":"Enroll Now",
+            "raiting":"5.0",
+            "category":"Design",
+            "price":"$400"
+        },
+        {
+            "id":2,
+            "Image":"/Images/python-course.png",
+            "Heading":"Introduction to Python",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
+            "button":"Enroll Now",
+            "raiting":"5.0",
+            "category":"Programming",
+            "price":"$400"
+        },
+        {
+            "id":3,
+            "Image":"/Images/data-analysis-course.png",
+            "Heading":"Data Analysis for Beginners",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
+            "button":"Enroll Now",
+            "raiting":"5.0",
+            "category":"Business",
+            "price":"$400"
+        },
+        {
+            "id":4,
+            "Image":"/Images/art-course.png",
+            "Heading":"Art Specialization",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
+            "button":"Enroll Now",
+            "raiting":"5.0",
+            "category":"Art",
+            "price":"$400"
+        },
+        {
+            "id":5,
+            "Image":"/Images/law-course.png",
+            "Heading":"Rule of Law",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
+            "button":"Enroll Now",
+            "raiting":"5.0",
+            "category":"Law",
+            "price":"$400"
+        },
+        {
+            "id":6,
+            "Image":"/Images/webflow-course.png",
+            "Heading":"Introduction to webflow",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
+            "button":"Enroll Now",
+            "raiting":"5.0",
+            "category":"Tech",
+            "price":"$400"
+        }
+    ],
+
+    "coursesCatalog":[
+        {    
+            "id":1,
+            "mainImage":"/Images/ddsngr-courses-catalog-one.png",
+            "heading":"Design & Development",
+            "description":"50+ Courses Available"
+        }, 
+
+        {
+          "id":2, 
+          "mainImage":"/Images/ddsngr-courses-catalog-two.png",
+          "heading":"Marketing",
+          "description":"50+ Courses Available"
+        }, 
+
+        {
+            "id":3,
+            "mainImage":"/Images/ddsngr-courses-catalog-three.png",
+            "heading":"Development", 
+            "description":"50+ Courses Available"
+        }, 
+        {
+            "id":4,
+            "mainImage":"/Images/ddsngr-courses-catalog-four.png",
+            "heading":"Communication",
+            "description":"50+ Courses Available"
+        }, 
+
+        {
+            "id":5,
+            "mainImage":"/Images/ddsngr-courses-catalog-five.png", 
+            "heading":"Digital Marketing", 
+            "description":"50+ Courses Available"
+        },
+
+        {
+            "id":6,
+            "mainImage":"/Images/ddsngr-courses-catalog-six.png",
+            "heading":"Self Development",
+            "description":"50+ Courses Available"
+        }, 
+        {
+            "id":7,
+            "mainImage":"/Images/ddsngr-courses-catalog-seven.png", 
+            "heading":"Business", 
+            "description":"50+ Courses Available"
+        }, 
+
+        {
+            "id":8,
+            "mainImage":"/Images/ddsngr-courses-catalog-eight.png", 
+            "heading":"Finance", 
+            "description":"50+ Courses Available"
+        }, 
+
+        {
+            "id":9,
+            "mainImage":"/Images/ddsngr-courses-catalog-nine.png", 
+            "heading":"Consulting", 
+            "description":"50+ Courses Available"
+        }
+    ],
+
+    "members":[
+        {
+            "id":1,
+            "image":"/Images/team-member-one.png",
+            "memberName":"James Nduku", 
+            "positon":"Marketing Coordinator"
+        },
+
+        {
+            "id":2,
+            "image":"/Images/team-member-two.png",
+            "memberName":"Joseph Munyambu", 
+            "positon":"Nursing Assistant"
+        },
+
+        {
+            "id":3,
+            "image":"/Images/team-member-three.png",
+            "memberName":"Joseph Ngumbau",
+            "positon":"Medical Assistant"
+        },
+
+        {
+            "id":4,
+            "image":"/Images/team-member-four.png",
+            "memberName":"Erick Kipkemboi",
+            "positon":"Web Designer"
+        },
+        {
+            "id":5,
+            "image":"/Images/team-member-five.png",
+            "memberName":"Stephen Kerubo", 
+            "positon":"President of Sales"
+        },
+        {
+            "id":6,
+            "image":"/Images/team-member-six.png",
+            "memberName":"John Leboo", 
+            "positon":"Dog Trainer"
+        }
+    ],
+    "testimonials":[
+
+        {   
+            "id":1,
+            "name":"James Nduku",
+            "position":"Software Developer",
+            "insights":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.",
+            "image":"/Images/team-member-three.png"
+        },
+
+        {   
+            "id":2,
+            "name":"Erick Kipkemboi",
+            "position":"Scrum Master",
+            "insights":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.",
+            "image":"/Images/team-member-one.png"
+
+        },
+        {   
+            "id":3,
+            "name":"Stephen Kerubo",
+            "position":"UI/UX Designer",
+            "insights":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.",
+            "image":"/Images/team-member-six.png"
+        }
+    ]
+}

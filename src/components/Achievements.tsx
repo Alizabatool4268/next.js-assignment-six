@@ -2,7 +2,7 @@ import React from 'react';
 
 function Achievements() {
   return (
-    <section className=' h-screen w-screen overflow-x-hidden flex justify-around items-center text-center flex-col'>
+    <section className=' w-screen overflow-x-hidden flex justify-around items-center text-center gap-20 flex-col mt-20'>
         <div className='text-black flex justify-around items-center text-center flex-col'>
             <h1 className='text-[48px] font-bold'>Our Achievements</h1>
             <p className=''>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra <br /> ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
