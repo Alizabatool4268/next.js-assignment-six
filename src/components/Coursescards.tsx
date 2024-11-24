@@ -19,9 +19,9 @@ function Coursescards() {
         <p className=' hover:underline decoration-solid decoration-black cursor-pointer'>Best  Price</p>
       </div>
       {/* cards */}
-      <div className='grid grid-cols-3 grid-rows-2 gap-3'>
+      <div className='grid grid-cols-3 grid-rows-2 gap-3 max-msm:grid-cols-1 max-xsm:grid-cols-1 max-sm:grid-cols-1 md:grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 '>
         {coursescardsData.cousesCards.map((cards)=>(
-          <div className='flex justify-center items-center w-[416px] flex-col gap-2 bg-[#F7F7F7]' key={cards.id}>
+          <div className='flex justify-center items-center w-[416px] flex-col gap-2 bg-[#F7F7F7] max-xsm:w-[380px] max-sm:w-[390px]' key={cards.id}>
             <Image
             src={cards.Image}
             height={300}
@@ -30,13 +30,13 @@ function Coursescards() {
             ></Image>
             {/* deatails of cards */}
             <div className='flex justify-between items-center flex-col'>
-              <div className='flex justify-between items-center w-[380px]'>
+              <div className='flex justify-between items-center w-[380px] '>
                 <span>{cards.category}</span>
-                <span className='flex justify-center gap-1 items-center'><IoStar className='text-[#D9D9D9]'/> {cards.raiting}</span>
+                <span className='flex justify-center gap-1 items-center max-sm:mr-20'><IoStar className='text-[#D9D9D9]'/> {cards.raiting}</span>
               </div>
               <div className='flex justify-between text-left flex-col w-[380px]'>
                 <span className='font-bold'>{cards.Heading}</span>
-                <span>{cards.description}</span>
+                <span className='max-xsm:text-sm'>{cards.description}</span>
               </div>
               <div className='flex gap-4 items-center text-left flex-row w-[380px]'>
                 <button className='border border-solid border-black rounded-[5px] h-[40px] w-[117px]'>{cards.button}</button>

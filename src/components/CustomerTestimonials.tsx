@@ -8,16 +8,18 @@ import { GoDotFill } from "react-icons/go";
 
 function CustomerTestimonials() {
   return (
-   <section className='h-screen w-screen bg-[#F7F7F7] pt-16 text-black '>
+   <section className='w-screen bg-[#F7F7F7] pt-16 text-black '>
    {/* heading and tagline */}
-   <div className='h-[109px] w-[509px] ml-9'>
-     <h2 className='text-[48px] font-bold'>Customer testimonials</h2>
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+   <div className='h-[109px] w-[509px] ml-9 max-xsm:ml-0 max-sm:ml-0 max-msm:ml-0 '>
+     <h2 className='text-[48px] font-bold max-msm:text-[40px] max-sm:hidden max-xsm:hidden'>Customer testimonials</h2>
+     {/* visible only on smaller screens */}
+     <h5 className='text-[32px] font-bold max-xsm:text-[20px] max-msm:hidden sm:hidden md:hidden lg:hidden xl:hidden 2xl:hidden '>What Our Student Say</h5>
+     <p className='max-xsm:text-sm '>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
    </div>
    <div className='flex justify-between items-center flex-col mt-8'>
-    <div className='grid grid-cols-3 grid-rows-1'>
+    <div className='grid grid-cols-3 grid-rows-1 max-xsm:grid-cols-1 max-sm:grid-cols-1 max-msm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 sm:grid-cols-1'>
      {customerTestimonials.testimonials.map((testimonialArr)=>(
-        <div className='h-[321px] w-[362px] ml-4 border-black border-solid border-[1px] flex justify-around items-center flex-col' key={testimonialArr.id}>
+        <div className='h-[321px] w-[362px] ml-4 max-xsm:ml-0 border-black border-solid border-[1px] flex justify-around items-center flex-col' key={testimonialArr.id}>
             <div className='h-5 w-[330px] flex justify-start items-center'>
                 <IoStar />
                 <IoStar />
@@ -44,7 +46,7 @@ function CustomerTestimonials() {
         </div>
       ))}
      </div>
-      <div className='flex justify-between items-center w-screen mt-8'>
+      <div className='flex justify-between items-center w-screen mt-8 max-xsm:mt-0'>
         <div className='flex justify-center items-center ml-20'>
          <GoDotFill />
          <GoDotFill className='text-[#8D8D8D]' />

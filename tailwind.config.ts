@@ -12,6 +12,12 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      screens:{
+        "max-xsm":{"max":"320px", "min":"280px"},
+        "max-sm":{"max":"428px"},
+        "cs":{"max":"400px"},
+        "max-msm":{"max":"639px", "min":"429px"},
+      }
     },
   },
   plugins: [],

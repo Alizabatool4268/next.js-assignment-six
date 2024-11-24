@@ -4,7 +4,9 @@ import Image from 'next/image';
 function SecctionOne() {
   return (
     <section className='h-[228px] w-screen bg-[#F7F7F7] flex justify-between items-center text-left overflow-x-hidden'>
-        <h3 className='text-black ml-2 font-bold text-[24px] h-fit w-fit mt-2'>Trusted by 2000+ companies <br /> worldwide.</h3>
+        <h3 className='text-black ml-2 font-bold text-[24px] h-fit w-fit mt-2 max-sm:hidden max-xsm:hidden'>Trusted by 2000+ companies <br /> worldwide.</h3>
+        {/* only visible on small screen */}
+        <h6 className='font-bold text-black max-msm:hidden sm:hidden md:hidden lg:hidden 2xl:hidden'>Trusted by the worlds best companies [social proof to build credibility]</h6>
         <div className='flex flex-row mr-2 justify-between h-[56px] w-fit'>
             <Image
             src={"/Images/ddsgnr-achievement-Image-one.png"}
