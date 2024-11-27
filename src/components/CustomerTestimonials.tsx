@@ -19,8 +19,9 @@ function CustomerTestimonials() {
    <div className='flex justify-between items-center flex-col mt-8'>
     <div className='grid grid-cols-3 grid-rows-1 max-xsm:grid-cols-1 max-sm:grid-cols-1 max-msm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 sm:grid-cols-1'>
      {customerTestimonials.testimonials.map((testimonialArr)=>(
-        <div className='h-[321px] w-[362px] ml-4 max-xsm:ml-0 border-black border-solid border-[1px] flex justify-around items-center flex-col' key={testimonialArr.id}>
-            <div className='h-5 w-[330px] flex justify-start items-center'>
+        <div className='h-[321px] w-[362px] ml-4 max-xsm:ml-0 border-black border-solid border-[1px]
+         flex justify-around items-center flex-col cs:w-[300px] cs:h-[300px]' key={testimonialArr.id}>
+            <div className='h-5 w-[330px] flex justify-start items-center cs:w-[300px]'>
                 <IoStar />
                 <IoStar />
                 <IoStar />

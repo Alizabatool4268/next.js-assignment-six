@@ -2,6 +2,7 @@ import React from 'react';
 import { IoStar } from "react-icons/io5";
 import coursescardsData from "@/Data/Data.json";
 import Image from 'next/image';
+import {Button} from "@/components/ui/button"
 
 
 function Coursescards() {
@@ -9,7 +10,7 @@ function Coursescards() {
     <section className='w-screen overflow-x-hidden text-black flex justify-center items-center gap-12 mt-20 flex-col'>
         {/* heading and tagline*/}
       <div className='flex justify-center items-center flex-col h-[118px] gap-2 w-full '>
-        <h1 className='text-[56px] font-bold'>Courses</h1>
+        <h1 className='text-[56px] font-bold max-sm:text-[35px] max-xsm:text-[35px]'>Courses</h1>
         <p>Your Ultimate Guide to learning</p>
       </div>
       {/* catagories */}
@@ -46,7 +47,7 @@ function Coursescards() {
           </div>
         ))}
       </div>
-       <button className='h-[40px] w-[152px] border-[1px] border-solid border-black rounded-[5px] hover:bg-black  hover:text-white '>View All Courses</button>
+       <Button variant={"ghost"} className='h-[40px] w-[152px]'>View All Courses</Button>
     </section>
   )
 }

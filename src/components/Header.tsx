@@ -6,6 +6,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaBars } from "react-icons/fa6";
 import Image from 'next/image';
 import Link from 'next/link';
+import {Button} from "@/components/ui/button"
 
 function Header() {
   return (
@@ -46,8 +47,8 @@ function Header() {
         <Link href={"/"} className="transition duration-300 ease-in-out hover:underline decoration-solid decoration-black max-msm:hidden">Achievements</Link>
         <Link href={"/"} className="transition duration-300 ease-in-out hover:underline decoration-solid decoration-black">About us</Link>
         <Link href={"/"} className="transition duration-300 ease-in-out hover:underline decoration-solid decoration-black max-msm:hidden">Testimonial</Link>
-        <button className='bg-white border-[1px] border-[#000000] rounded-[5px] h-[40px] w-20 max-msm:w-16'>Login</button>
-        <button className=' bg-black text-white border-[1px] border-[#000000] rounded-[5px] h-[40px] w-20 max-msm:w-16'>Sign Up</button>
+        <Button variant={"ghost"} className='h-[40px] w-20 max-msm:w-16'>Login</Button>
+        <Button className='text-white h-[40px] w-20 max-msm:w-16'>Sign Up</Button>
       </div>
   </nav>
   </header>

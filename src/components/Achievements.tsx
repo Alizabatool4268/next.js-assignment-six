@@ -4,7 +4,7 @@ function Achievements() {
   return (
     <section className=' w-screen overflow-x-hidden flex justify-around items-center text-center gap-20 flex-col mt-20'>
         <div className='text-black flex justify-around items-center text-center flex-col'>
-            <h1 className='text-[48px] font-bold max-xsm:text-[30px] max-msm:text-[40px]'>Our Achievements</h1>
+            <h1 className='text-[48px] font-bold max-xsm:text-[30px] max-msm:text-[40px] max-sm:text-[35px]'>Our Achievements</h1>
             <p className='max-xsm:hidden max-sm:hidden max-msm:hidden'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra <br /> ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
            {/* only visible on small screen*/}
            <p className='md:hidden lg:hidden 2xl:hidden text-sm '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. </p>

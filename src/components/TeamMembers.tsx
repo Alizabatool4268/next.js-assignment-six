@@ -4,6 +4,7 @@ import { FaTwitter } from "react-icons/fa";
 import { FaDribbble } from "react-icons/fa";
 import Image from 'next/image';
 import membersInformation from "@/Data/Data.json";
+import {Button} from "@/components/ui/button"
 
 function TeamMembers() {
     return (
@@ -38,7 +39,7 @@ function TeamMembers() {
                 </div>
             ))}
         </div>
-            <button className='border-[1px] border-black rounded-[5px] ml-3 text-sm w-20 h-9 max-xsm:visible max-sm:visible max-msm:hidden md:hidden lg:hidden xl:hidden 2xl:hidden'>View All </button>
+            <Button variant={"ghost"} className="ml-3 text-sm w-20 h-9 max-xsm:visible max-sm:visible max-msm:hidden md:hidden lg:hidden xl:hidden 2xl:hidden">View All </Button>
     </section>
   )
 }
